@@ -1,4 +1,112 @@
-body {
-    background-color: rgb(20, 83, 7);
-    color: aliceblue;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
+
+:root {
+    --primary-color: #001f36;
+    --primary-color-var: #005ca3; 
+    --secondary-color: #1c5560;
+    --tertiary-color: #79ae92;
+    --contrast-color: #fbffcd;
+    --bg-color: #030018;
+    
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --transition: transition: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background: var(--bg-color);
+    color: var(--contrast-color);
+    line-height: 1.7;
+    background-image: url(../assets/bg-texture.png);
+}
+
+/* === GENERAL STYLES === */
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section{
+    margin-top: 8rem;
+}
+
+section > h2, section > h5{
+    text-align: center;  
+    color: var(--tertiary-color);
+}
+
+section > h2 {
+    color: var(--primary-color-var);
+    margin-bottom: 3rem;
+}
+
+.text-light{
+    color: var(--contrast-color);
+}
+
+a {
+    color: var(--primary-color-var);
+    transition: var(--transition)
+}
+
+a:hover {
+    color: var(--contrast-color)
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--primary-color);
+    padding: 0.75rem 1.2rem; 
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--contrast-color);
+    color: var(--bg-color); 
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* === MEDIA QUERIES (MEDIUM DEVICES) === */
