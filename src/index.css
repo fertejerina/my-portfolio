@@ -36,7 +36,7 @@ body{
     background: var(--bg-color);
     color: var(--contrast-color);
     line-height: 1.7;
-    background-image: url(../assets/bg-texture.png);
+    background-image: url(./assets/bg-texture.png);
 }
 
 /* === GENERAL STYLES === */
@@ -124,7 +124,7 @@ img{
     .container{
         width: var(--container-width-sm);
     }
-    section>h2{
+    section > h2{
         margin-top: 2rem;
     }
 }
