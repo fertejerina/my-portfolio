@@ -9,12 +9,12 @@
 }
 
 :root {
-    --primary-color: #001f36;
-    --primary-color-var: #005ca3; 
-    --secondary-color: #1c5560;
-    --tertiary-color: #79ae92;
+    --primary-color: #ff8800;
+    --primary-color-var: #fbffcd;
+    --secondary-color: #602a1c;
+    --tertiary-color: #ffd95b;
     --contrast-color: #fbffcd;
-    --bg-color: #030018;
+    --bg-color: #180000;
     
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -73,7 +73,7 @@ section > h2 {
 }
 
 a {
-    color: var(--primary-color-var);
+    color: var(--primary-color);
     transition: var(--transition)
 }
 
