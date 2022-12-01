@@ -1,6 +1,6 @@
-#services{
+/* #services{
     margin-top: 350px;
-}
+} */
 .services__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -73,7 +73,10 @@
 
 /* === MEDIA QUERIES (SMALL DEVICES) === */
 @media screen and (max-width: 600px) {
-   .services__container{
+    #services {
+        margin-top: 400px;
+    }
+    .services__container{
     grid-template-columns: 1fr;
     gap: 1.5rem;
    }
