@@ -1,9 +1,103 @@
 import React from 'react'
 import './experience.css'
+import {BsPatchCheckFill} from 'react-icons/bs'
+import {ImHtmlFive} from 'react-icons/im'
+import {SiCss3, SiBootstrap, SiPlatzi, SiJavascript} from 'react-icons/si'
+import {DiJavascript} from 'react-icons/di'
+import {FaReact} from 'react-icons/fa'
 
 const Experience = () => {
   return (
-    <section id='experience'>Experience</section>
+    <section id='experience'>
+      
+      <h5>My Skills</h5>
+      <h2>My Experience</h2>
+      
+      <div className="container experience__container">
+        <div className="experience__tecnologies">
+          <h3>Tecnologies</h3>
+          <div className="experience__content">
+              <article className='experience__details'>
+              <ImHtmlFive className='experience__details-icon'/>
+              <div>
+              <h4>HTML</h4>
+              <small className='text-lights'>Experienced</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <SiCss3 className='experience__details-icon' />
+              <div>
+              <h4>CSS</h4>
+              <small className='text-lights'>Experienced</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <SiBootstrap className='experience__details-icon'/>
+              <div>
+              <h4>Bootstrap</h4>
+              <small className='text-lights'>Experienced</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <DiJavascript className='experience__details-icon'/>
+              <div>
+              <h4>JavaScript</h4>
+              <small className='text-lights'>Medium</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <FaReact className='experience__details-icon' />
+              <div>
+              <h4>React Js</h4>
+              <small className='text-lights'>Medium</small>
+              </div>
+              </article>
+          </div>
+        </div>
+
+        
+        <div className="experience__certifications">
+        <h3>Certifications</h3>
+          <div className="experience__content">
+              <article className='experience__details'>
+              <SiPlatzi className='experience__details-icon'/>
+              <div>
+              <h4>HTML and CSS advanced</h4>
+              <small className='text-lights'>Institution: Platzi.com</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <SiJavascript className='experience__details-icon'/>
+              <div>
+              <h4>Javascript</h4>
+              <small className='text-lights'>Institution: SoyHenry</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <SiPlatzi className='experience__details-icon'/>
+              <div>
+              <h4>ECMAScript 6+</h4>
+              <small className='text-lights'>Institution: Platzi.com</small>
+              </div>
+              </article>
+
+              <article className='experience__details'>
+              <SiPlatzi className='experience__details-icon'/>
+              <div>
+              <h4>Introduction to ReactJs</h4>
+              <small className='text-lights'>Institution: Platzi.com</small>
+              </div>
+              </article>
+          </div>
+        </div>
+      </div>  
+    </section>
   )
 }
 

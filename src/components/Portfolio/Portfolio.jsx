@@ -1,8 +1,38 @@
 import React from 'react'
+import './portfolio.css'
+import IMG1 from "../../assets/portfolio1.png"
+import IMG2 from "../../assets/portfolio2.png"
 
 const Portfolio = () => {
   return (
-    <section id='portfolio '>Portfolio</section>
+    <section id='portfolio '>
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
+
+      <div className="container portfolio__container">
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="Portfolio 1" />
+          </div>
+          <h3>ToDo List</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/fertejerina/PLATZI-react-intro" className='btn' target="_blank">Repository</a>
+          <a href="https://fertejerina.github.io/PLATZI-react-intro/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="Portfolio 2" />
+            <h3>Landing Page HTML CSS</h3>
+          </div>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/fertejerina/mobile-first-layout-course" className='btn' target="_blank">Repository</a>
+          <a href="https://fertejerina.github.io/mobile-first-layout-course/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
   )
 }
 
