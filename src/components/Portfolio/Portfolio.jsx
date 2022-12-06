@@ -16,8 +16,8 @@ const Portfolio = () => {
           </div>
           <h3>ToDo List</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/fertejerina/PLATZI-react-intro" className='btn' target="_blank">Repository</a>
-          <a href="https://fertejerina.github.io/PLATZI-react-intro/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <a href="https://github.com/fertejj/PLATZI-react-intro" className='btn' target="_blank">Repository</a>
+          <a href="https://fertejj.github.io/PLATZI-react-intro/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
 
@@ -27,8 +27,8 @@ const Portfolio = () => {
             <h3>Landing Page HTML CSS</h3>
           </div>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/fertejerina/mobile-first-layout-course" className='btn' target="_blank">Repository</a>
-          <a href="https://fertejerina.github.io/mobile-first-layout-course/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <a href="https://github.com/fertejj/mobile-first-layout-course" className='btn' target="_blank">Repository</a>
+          <a href="https://fertejj.github.io/mobile-first-layout-course/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
       </div>
