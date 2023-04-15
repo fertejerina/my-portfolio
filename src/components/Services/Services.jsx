@@ -11,41 +11,45 @@ const Services = () => {
         <div className="container services__container">
             <article className='service'>
                 <div className='service__head'>
-                    <h3>Landing Page Creation</h3>
+                    <h3>Desarrollo de Landing Page</h3>
                 </div>
 
                 <ul className='service__list'>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Page development</p>
+                    <p>Desarrollo de la pagina</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Personal service</p>
+                    <p>Atencion personalizada</p>
+                  </li>
+                                    <li>
+                    <AiOutlineCheckCircle className='service__list-icon'/>
+                    <p>Agregado de funcionalidades especificas</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Domain of your choice (.com, .net, store, etc)</p>
+                    <p>Dominio de tu eleccion (.com, .net, store, etc)</p>
                   </li>
                 </ul>
             </article>
             <article className='service'>
                 <div className='service__head'>
-                    <h3>Computer formatting and maintenance</h3>
+                    <h3>Limpieza y mantenimiento de PC</h3>
                 </div>
 
                 <ul className='service__list'>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Formatting of Pc and Notebooks.</p>
+                    <p>Limpieza fisica del ordenador.</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>PC cleaning and maintenance.</p>
+                    <p>Mantenimiento de software/SO.</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Software Installation</p>
+                    <p>Instalacion de programas.</p>
                   </li>
                 </ul>
             </article>
