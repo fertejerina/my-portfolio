@@ -19,7 +19,7 @@ const Experience = () => {
               <ImHtmlFive className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-lights">Alto</small>
+                <small className="text-lights">Experimentado</small>
               </div>
             </article>
 
@@ -27,7 +27,7 @@ const Experience = () => {
               <SiCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-lights">Medio</small>
+                <small className="text-lights">Experimentado</small>
               </div>
             </article>
 
@@ -65,7 +65,7 @@ const Experience = () => {
         </div>
 
         <div className="experience__certifications">
-          <h3>Certificaciones</h3>
+          <h3>Cursos</h3>
           <div className="experience__content">
             <article className="experience__details">
               <SiPlatzi className="experience__details-icon" />
