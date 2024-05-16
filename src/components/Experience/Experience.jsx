@@ -4,7 +4,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3, SiBootstrap, SiPlatzi, SiJavascript } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaAngular } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -51,6 +51,13 @@ const Experience = () => {
               <FaReact className="experience__details-icon" />
               <div>
                 <h4>React Js</h4>
+                <small className="text-lights">Medio</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaAngular className="experience__details-icon" />
+              <div>
+                <h4>Angular</h4>
                 <small className="text-lights">Medio</small>
               </div>
             </article>
