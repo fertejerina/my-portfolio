@@ -9,7 +9,10 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>Mis trabajos recientes</h5>
       <h2>Portfolio</h2>
-        <article className='portfolio__item'>
+
+
+      <div className="container portfolio__container">
+      <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG3} alt="Portfolio 2" />
             <h3>Solutec LandingPage</h3>
@@ -20,7 +23,6 @@ const Portfolio = () => {
           </div>
         </article>
 
-      <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Portfolio 1" />
