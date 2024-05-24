@@ -1,3 +1,9 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -47,10 +53,10 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--contrast-color);
+    background-color: var(--contrast-color);
+
     resize: none;
-    color: white;
+
 }
 
 

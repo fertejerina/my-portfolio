@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/FRONTEND-dev-TEJERINA-Fernando.pdf'
+import CV from '../../assets/ANALISTA_PROGRAMADOR-TejerinaFernando-ESP.pdf'
 
 const HeaderCTA = () => {
   return (

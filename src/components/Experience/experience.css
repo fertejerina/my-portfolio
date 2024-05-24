@@ -1,7 +1,14 @@
+#experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    
+
 }
 
 .experience__container > div {
@@ -14,7 +21,7 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--primary-color-var);
+    border-color: var(--primary-color);
     cursor: default;
 }
 

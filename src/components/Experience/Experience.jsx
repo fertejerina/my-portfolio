@@ -1,6 +1,5 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3, SiBootstrap, SiPlatzi, SiJavascript } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
