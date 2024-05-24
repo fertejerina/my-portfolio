@@ -29,9 +29,16 @@ const About = () => {
             constructivo en los proyectos en los que me involucre.
           </p>
           <AboutCards />
-          <button href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" style={
+            {
+              display: "block",
+              width: "100%",
+              marginTop: "1rem",
+              textAlign: "center",
+            }
+          }>
             Contactame!
-          </button>
+          </a>
         </div>
       </div>
     </section>
